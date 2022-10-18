@@ -20,10 +20,11 @@ public class Main {
 
         Transport[] transports = {new Car(50), new Car(40),
                 new Bus(110), new Bus(200), new Bus(300),
-                new Truck(500)};
+                new Truck(500, 1000)};
 
         int total = GasStation.calcTotalOil(transports);
 
         System.out.println("Total oil: " + total);
+
     }
 }

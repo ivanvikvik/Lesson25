@@ -12,6 +12,7 @@ public class Transport {
     }
 
     public int getTank() {
+        System.out.println("getTank from Transport class");       // debug
         return tank;
     }
 
