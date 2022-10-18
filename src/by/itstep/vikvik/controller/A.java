@@ -1,8 +1,8 @@
 package by.itstep.vikvik.controller;
 
 public class A {
-    public int value;
-    public static int svalue;
+    public int value = 1;
+    public static int svalue = 1;
 
     public static void stest() {
         System.out.println(" static test from A class");
